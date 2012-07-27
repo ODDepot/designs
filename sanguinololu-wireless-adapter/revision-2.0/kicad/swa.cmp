@@ -1,0 +1,80 @@
+Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Wed 20 Jun 2012 01:10:55 PM CDT
+
+BeginCmp
+TimeStamp = /4FE0C65C;
+Reference = C1;
+ValeurCmp = T491A475K016AT;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE0C821;
+Reference = D1;
+ValeurCmp = APL3015SURCK-F01;
+IdModule  = LED-SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE0F25F;
+Reference = J1;
+ValeurCmp = 68683-307LF;
+IdModule  = 68683-307LF(straddle);
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE0F3A9;
+Reference = J2;
+ValeurCmp = 68683-303LF;
+IdModule  = 68683-303LF(straddle);
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE0CCAF;
+Reference = J3;
+ValeurCmp = 0473093751;
+IdModule  = 0473093751;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE0C7F6;
+Reference = R1;
+ValeurCmp = CRCW0805330RJNEA;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE0C83F;
+Reference = R2;
+ValeurCmp = CRCW080516K0JNEA;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE0C858;
+Reference = R3;
+ValeurCmp = CRCW080533K0JNEA;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE0C687;
+Reference = U1;
+ValeurCmp = TC1262-3.3VDB;
+IdModule  = SOT223;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE0ED4D;
+Reference = U2;
+ValeurCmp = TXB0106PWR;
+IdModule  = TSSOP16-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE0C7D7;
+Reference = U3;
+ValeurCmp = WT41-A-AI4;
+IdModule  = WT41-A-AI4;
+EndCmp
+
+EndListe

@@ -1,0 +1,252 @@
+# EESchema Netlist Version 1.1 created  Fri 09 Dec 2011 11:54:02 AM CST
+(
+ ( /4ED94F9C C1V5 C1 1uF
+  ( 1 /3.3V )
+  ( 2 GND )
+ )
+ ( /4ED94F93 LED-5MM D1 LED
+  ( 1 /3.3V )
+  ( 2 N-000027 )
+ )
+ ( /4ED94F94 LED-5MM D2 LED
+  ( 1 N-000029 )
+  ( 2 GND )
+ )
+ ( /4ED91E78 LED-5MM D3 LED
+  ( 1 /3.3V )
+  ( 2 N-000043 )
+ )
+ ( /4EDD377A 0473093751 J1 0473093751
+  ( 1 ? )
+  ( 2 /CS3 )
+  ( 3 /DI3 )
+  ( 4 /3.3V )
+  ( 5 /SCLK3 )
+  ( 6 GND )
+  ( 7 /DO3 )
+  ( 8 ? )
+  ( 9 GND )
+  ( 10 GND )
+  ( 11 N-000042 )
+  ( 12 GND )
+ )
+ ( /4EDD377F 7x1 P1 UPPER_IO_INTERFACE
+  ( 1 GND )
+  ( 2 GND )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 /CS5 )
+ )
+ ( /4EDD3780 7x1 P2 LOWER_IO_INTERFACE
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 /TX5 )
+  ( 4 /RX5 )
+  ( 5 ? )
+  ( 6 /5V )
+  ( 7 ? )
+ )
+ ( /4EDD377E 3x1 P3 UPPER_ISP_INTERFACE
+  ( 1 GND )
+  ( 2 /DI5 )
+  ( 3 /5V )
+ )
+ ( /4EDD377D 3x1 P4 LOWER_ISP_INTERFACE
+  ( 1 /DO5 )
+  ( 2 /SCLK5 )
+  ( 3 /RESET )
+ )
+ ( /4EDD3781 R3 R1 1000
+  ( 1 /3.3V )
+  ( 2 /RESET )
+ )
+ ( /4ED94F97 R3 R2 1000
+  ( 1 N-000052 )
+  ( 2 /3.3V )
+ )
+ ( /4ED94F98 R3 R3 1000
+  ( 1 N-000051 )
+  ( 2 /3.3V )
+ )
+ ( /4ED94F8A R3 R4 1000
+  ( 1 N-000030 )
+  ( 2 /3.3V )
+ )
+ ( /4ED94F9A R3 R5 1000
+  ( 1 N-000050 )
+  ( 2 /3.3V )
+ )
+ ( /4ED94F95 R3 R6 100
+  ( 1 N-000027 )
+  ( 2 N-000057 )
+ )
+ ( /4ED94F96 R3 R7 100
+  ( 1 N-000029 )
+  ( 2 N-000028 )
+ )
+ ( /4ED91E76 R3 R8 100
+  ( 1 N-000043 )
+  ( 2 N-000042 )
+ )
+ ( /4EDD3778 DIP-8__300 S1 209-4LPST
+  ( 1 N-000052 )
+  ( 2 N-000051 )
+  ( 3 N-000030 )
+  ( 4 N-000050 )
+  ( 5 /PIO7 )
+  ( 6 /PIO6 )
+  ( 7 /PIO3 )
+  ( 8 /PIO4 )
+ )
+ ( /4EDD3779 RN-41 U1 RN-41
+  ( 1 GND )
+  ( 2 ? )
+  ( 3 /PIO6 )
+  ( 4 /PIO7 )
+  ( 5 /RESET )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 /3.3V )
+  ( 12 GND )
+  ( 13 /RX3 )
+  ( 14 /TX3 )
+  ( 15 ? )
+  ( 16 GND )
+  ( 17 ? )
+  ( 18 ? )
+  ( 19 N-000028 )
+  ( 20 /PIO3 )
+  ( 21 N-000057 )
+  ( 22 /PIO4 )
+  ( 23 ? )
+  ( 24 ? )
+  ( 28 GND )
+  ( 29 GND )
+  ( 30 ? )
+  ( 31 ? )
+  ( 32 ? )
+  ( 33 ? )
+  ( 34 ? )
+  ( 35 ? )
+ )
+ ( /4EDD377B TSSOP16 U2 TXB0106
+  ( 1 /RX3 )
+  ( 2 /3.3V )
+  ( 3 /TX3 )
+  ( 4 /CS3 )
+  ( 5 /DI3 )
+  ( 6 /SCLK3 )
+  ( 7 /DO3 )
+  ( 8 /3.3V )
+  ( 9 GND )
+  ( 10 /DO5 )
+  ( 11 /SCLK5 )
+  ( 12 /DI5 )
+  ( 13 /CS5 )
+  ( 14 /TX5 )
+  ( 15 /5V )
+  ( 16 /RX5 )
+ )
+ ( /4EDD377C SOT223 U3 TC1262-3.3VDB
+  ( 1 /5V )
+  ( 2 GND )
+  ( 3 /3.3V )
+  ( 4 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ CP*
+ SM*
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

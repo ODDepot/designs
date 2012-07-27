@@ -1,0 +1,541 @@
+EESchema Schematic File Version 2  date Tue 19 Jun 2012 04:54:16 PM CDT
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:_microchip_
+LIBS:_molex_
+LIBS:_texas_instruments_
+LIBS:_blue_giga_
+LIBS:_kemet_
+LIBS:_kingbright_
+LIBS:_vishay_
+LIBS:_fci_
+LIBS:swa-cache
+EELAYER 25  0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "Sanguinololu Wireless Adapter"
+Date "19 jun 2012"
+Rev "2.0"
+Comp "ODDepot.com"
+Comment1 "Licensed Under GPLv2"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 800  6400 0    50   ~ 0
+3.3V
+$Comp
+L GND #PWR01
+U 1 1 00000000
+P 4450 2800
+F 0 "#PWR01" H 4450 2800 30  0001 C CNN
+F 1 "GND" H 4450 2730 30  0001 C CNN
+	1    4450 2800
+	1    0    0    -1  
+$EndComp
+Text Label 4150 2600 0    50   ~ 0
+5V
+Text Label 4150 2500 0    50   ~ 0
+DI5
+Text Label 10200 1700 2    50   ~ 0
+DO5
+Text Label 10200 1600 2    50   ~ 0
+SCLK5
+Text Label 10200 1500 2    50   ~ 0
+DI5
+Text Label 10200 1300 2    50   ~ 0
+TX5
+Text Label 10200 1200 2    50   ~ 0
+5V
+Text Label 10200 1100 2    50   ~ 0
+RX5
+Text Label 6550 2400 2    50   ~ 0
+RST5
+Text Label 6550 2500 2    50   ~ 0
+SCLK5
+Text Label 6550 2600 2    50   ~ 0
+DO5
+Text Label 6550 1100 2    50   ~ 0
+5V
+Text Label 6550 1300 2    50   ~ 0
+RX5
+Text Label 6550 1400 2    50   ~ 0
+TX5
+Text Label 4150 1600 0    50   ~ 0
+CS5
+$Comp
+L GND #PWR02
+U 1 1 4EDD3777
+P 4450 1800
+F 0 "#PWR02" H 4450 1800 30  0001 C CNN
+F 1 "GND" H 4450 1730 30  0001 C CNN
+	1    4450 1800
+	1    0    0    -1  
+$EndComp
+Text Label 2000 6000 0    50   ~ 0
+RX3
+Text Label 5600 5700 2    50   ~ 0
+TX3
+Text Label 7600 1700 0    50   ~ 0
+DO3
+Text Label 7600 1600 0    50   ~ 0
+SCLK3
+Text Label 7600 1500 0    50   ~ 0
+DI3
+Text Label 7600 1400 0    50   ~ 0
+CS3
+Text Label 2000 5600 0    50   ~ 0
+3.3V
+Text Label 6100 5700 2    50   ~ 0
+RST5
+Text Label 7600 1300 0    50   ~ 0
+TX3
+Text Label 7600 1100 0    50   ~ 0
+RX3
+$Comp
+L GND #PWR03
+U 1 1 4ED94F9D
+P 9800 2000
+F 0 "#PWR03" H 9800 2000 30  0001 C CNN
+F 1 "GND" H 9800 1930 30  0001 C CNN
+	1    9800 2000
+	1    0    0    -1  
+$EndComp
+Text Label 7600 1200 0    50   ~ 0
+3.3V
+Text Label 900  1400 0    50   ~ 0
+3.3V
+Text Label 900  1200 0    50   ~ 0
+5V
+$Comp
+L GND #PWR04
+U 1 1 4ED94F92
+P 3000 2100
+F 0 "#PWR04" H 3000 2100 30  0001 C CNN
+F 1 "GND" H 3000 2030 30  0001 C CNN
+	1    3000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 4F9F0EA9
+P 5200 7700
+F 0 "#PWR05" H 5200 7700 30  0001 C CNN
+F 1 "GND" H 5200 7630 30  0001 C CNN
+	1    5200 7700
+	1    0    0    -1  
+$EndComp
+Text Label 5600 6700 2    50   ~ 0
+3.3V
+Text Label 10200 1400 2    50   ~ 0
+CS5
+Text Label 7500 4700 0    50   ~ 0
+DO3
+Text Label 7500 4500 0    50   ~ 0
+SCLK3
+Text Label 7500 4300 0    50   ~ 0
+DI3
+Text Label 7500 4200 0    50   ~ 0
+CS3
+Text Label 7500 4400 0    50   ~ 0
+3.3V
+$Comp
+L GND #PWR06
+U 1 1 4FA05B4A
+P 7800 5400
+F 0 "#PWR06" H 7800 5400 30  0001 C CNN
+F 1 "GND" H 7800 5330 30  0001 C CNN
+	1    7800 5400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 4FCF8004
+P 5900 7500
+F 0 "#PWR07" H 5900 7500 30  0001 C CNN
+F 1 "GND" H 5900 7430 30  0001 C CNN
+	1    5900 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 1600 9700 1600
+Wire Wire Line
+	10200 1400 9700 1400
+Wire Wire Line
+	10200 1200 9700 1200
+Wire Wire Line
+	7600 1600 8100 1600
+Wire Wire Line
+	7600 1400 8100 1400
+Wire Wire Line
+	7600 1200 8100 1200
+Wire Wire Line
+	1900 5700 2500 5700
+Wire Wire Line
+	800  6400 1200 6400
+Connection ~ 4100 3800
+Wire Wire Line
+	4100 3900 4100 3800
+Connection ~ 3900 3800
+Wire Wire Line
+	3900 3900 3900 3800
+Connection ~ 3700 3800
+Wire Wire Line
+	3700 3900 3700 3800
+Connection ~ 3500 3800
+Wire Wire Line
+	3500 3900 3500 3800
+Wire Wire Line
+	2000 6000 2500 6000
+Wire Wire Line
+	5100 6600 5900 6600
+Wire Wire Line
+	4550 2400 4450 2400
+Wire Wire Line
+	4450 2400 4450 2800
+Wire Wire Line
+	4150 2600 4550 2600
+Wire Wire Line
+	4150 2500 4550 2500
+Wire Wire Line
+	4550 1600 4150 1600
+Wire Wire Line
+	6150 1300 6550 1300
+Wire Wire Line
+	6150 1400 6550 1400
+Wire Wire Line
+	6150 1100 6550 1100
+Wire Wire Line
+	6150 2400 6550 2400
+Wire Wire Line
+	6150 2500 6550 2500
+Wire Wire Line
+	6150 2600 6550 2600
+Wire Wire Line
+	4450 1100 4550 1100
+Wire Wire Line
+	4550 1000 4450 1000
+Wire Wire Line
+	1300 1300 1200 1300
+Wire Wire Line
+	4450 1000 4450 1800
+Connection ~ 4450 1100
+Wire Wire Line
+	2000 5600 2500 5600
+Wire Wire Line
+	5100 5700 5600 5700
+Wire Wire Line
+	2900 1300 3000 1300
+Wire Wire Line
+	3000 2100 3000 900 
+Wire Wire Line
+	2400 4700 2500 4700
+Wire Wire Line
+	2400 4800 2500 4800
+Connection ~ 2400 4700
+Wire Wire Line
+	2400 4900 2500 4900
+Connection ~ 2400 4800
+Wire Wire Line
+	2400 5000 2500 5000
+Connection ~ 2400 4900
+Wire Wire Line
+	2400 5500 2500 5500
+Connection ~ 2400 5000
+Wire Wire Line
+	2500 5100 2400 5100
+Connection ~ 2400 5100
+Wire Wire Line
+	2500 5200 2400 5200
+Connection ~ 2400 5200
+Wire Wire Line
+	2500 5300 2400 5300
+Connection ~ 2400 5300
+Wire Wire Line
+	2500 5400 2400 5400
+Connection ~ 2400 5400
+Wire Wire Line
+	5200 5000 5100 5000
+Wire Wire Line
+	5200 5100 5100 5100
+Connection ~ 5200 5000
+Wire Wire Line
+	5200 5200 5100 5200
+Connection ~ 5200 5100
+Wire Wire Line
+	5200 5300 5100 5300
+Connection ~ 5200 5200
+Wire Wire Line
+	5200 5400 5100 5400
+Connection ~ 5200 5300
+Wire Wire Line
+	5200 5500 5100 5500
+Connection ~ 5200 5400
+Wire Wire Line
+	2400 6800 2500 6800
+Connection ~ 2400 5500
+Wire Wire Line
+	5200 7600 2400 7600
+Wire Wire Line
+	3500 7600 3500 7500
+Connection ~ 2400 6800
+Wire Wire Line
+	3700 7600 3700 7500
+Connection ~ 3500 7600
+Wire Wire Line
+	3800 7600 3800 7500
+Connection ~ 3700 7600
+Wire Wire Line
+	3900 7600 3900 7500
+Connection ~ 3800 7600
+Wire Wire Line
+	4100 7600 4100 7500
+Connection ~ 3900 7600
+Wire Wire Line
+	5200 6800 5100 6800
+Connection ~ 4100 7600
+Connection ~ 5200 6800
+Connection ~ 5200 5500
+Wire Wire Line
+	5100 6300 5200 6300
+Connection ~ 5200 6300
+Connection ~ 5200 7600
+Wire Wire Line
+	5100 6700 5600 6700
+Wire Wire Line
+	2500 6100 2400 6100
+Connection ~ 2400 6100
+Wire Wire Line
+	1200 1300 1200 900 
+Wire Wire Line
+	1200 900  3000 900 
+Connection ~ 3000 1300
+Wire Wire Line
+	1200 1900 1200 2000
+Wire Wire Line
+	1200 2000 3000 2000
+Connection ~ 3000 2000
+Connection ~ 3000 2000
+Wire Wire Line
+	1200 1400 1200 1500
+Connection ~ 1200 1400
+Wire Wire Line
+	1300 1200 900  1200
+Wire Wire Line
+	900  1400 1300 1400
+Wire Wire Line
+	7500 4500 7900 4500
+Wire Wire Line
+	7500 4300 7900 4300
+Connection ~ 7800 4900
+Wire Wire Line
+	7800 5400 7800 4600
+Wire Wire Line
+	7800 4600 7900 4600
+Wire Wire Line
+	7800 5000 7900 5000
+Wire Wire Line
+	7900 4900 7800 4900
+Connection ~ 7800 5000
+Wire Wire Line
+	7500 4200 7900 4200
+Wire Wire Line
+	7500 4400 7900 4400
+Wire Wire Line
+	7500 4700 7900 4700
+Wire Wire Line
+	1500 5700 1200 5700
+Wire Wire Line
+	2400 7600 2400 3800
+Wire Wire Line
+	2400 3800 5200 3800
+Wire Wire Line
+	5200 3800 5200 7700
+Wire Wire Line
+	3600 3900 3600 3800
+Connection ~ 3600 3800
+Wire Wire Line
+	3800 3900 3800 3800
+Connection ~ 3800 3800
+Wire Wire Line
+	4000 3900 4000 3800
+Connection ~ 4000 3800
+Wire Wire Line
+	1200 6400 1200 6300
+Wire Wire Line
+	1200 5700 1200 5800
+Wire Wire Line
+	7600 1100 8100 1100
+Wire Wire Line
+	7600 1300 8100 1300
+Wire Wire Line
+	7600 1500 8100 1500
+Wire Wire Line
+	7600 1700 8100 1700
+Wire Wire Line
+	10200 1100 9700 1100
+Wire Wire Line
+	10200 1300 9700 1300
+Wire Wire Line
+	10200 1500 9700 1500
+Wire Wire Line
+	10200 1700 9700 1700
+Wire Wire Line
+	9700 1800 9800 1800
+Wire Wire Line
+	9800 1800 9800 2000
+Wire Wire Line
+	8000 1800 8100 1800
+Wire Wire Line
+	5900 6400 5900 6800
+Connection ~ 5900 6600
+Connection ~ 5900 6600
+Wire Wire Line
+	5900 5900 5900 5700
+Wire Wire Line
+	5900 5700 6100 5700
+Wire Wire Line
+	5900 7300 5900 7500
+Wire Wire Line
+	8000 1800 8000 1200
+Connection ~ 8000 1200
+$Comp
+L T491A475K016AT C1
+U 1 1 4FE0C65C
+P 1200 1700
+F 0 "C1" H 1200 1900 50  0000 C CNN
+F 1 "T491A475K016AT" H 1200 1500 50  0000 C CNN
+F 4 "4.7uF" H 1200 1401 50  0000 C CNN "Description"
+	1    1200 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TC1262-3.3VDB U1
+U 1 1 4FE0C687
+P 2100 1300
+F 0 "U1" H 1650 1649 50  0000 C CNN
+F 1 "TC1262-3.3VDB" H 2100 1550 50  0000 C CNN
+F 4 "VOLTAGE REGULATOR" H 2100 1050 50  0000 C CNN "Description"
+	1    2100 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L WT41-A-AI4 U3
+U 1 1 4FE0C7D7
+P 3800 5700
+F 0 "U3" H 2852 7250 50  0000 C CNN
+F 1 "WT41-A-AI4" H 3800 5800 50  0000 C CNN
+F 4 "BLUETOOTH TRANSCEIVER" H 3800 5600 50  0000 C CNN "Description"
+	1    3800 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CRCW0805330RJNEA R1
+U 1 1 4FE0C7F6
+P 1200 6050
+F 0 "R1" H 1200 6150 50  0000 C CNN
+F 1 "CRCW0805330RJNEA" H 1200 5950 50  0000 C CNN
+F 4 "330Ω" H 1200 5850 50  0000 C CNN "Description"
+	1    1200 6050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L APL3015SURCK-F01 D1
+U 1 1 4FE0C821
+P 1700 5700
+F 0 "D1" H 1700 5800 50  0000 C CNN
+F 1 "APL3015SURCK-F01" H 1700 5600 50  0000 C CNN
+	1    1700 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CRCW080516K0JNEA R2
+U 1 1 4FE0C83F
+P 5900 6150
+F 0 "R2" H 5900 6250 50  0000 C CNN
+F 1 "CRCW080516K0JNEA" H 5900 6050 50  0000 C CNN
+F 4 "16kΩ" H 5900 5950 50  0000 C CNN "Description"
+	1    5900 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CRCW080533K0JNEA R3
+U 1 1 4FE0C858
+P 5900 7050
+F 0 "R3" H 5900 7150 50  0000 C CNN
+F 1 "CRCW080533K0JNEA" H 5900 6950 50  0000 C CNN
+F 4 "33kΩ" H 5900 6850 50  0000 C CNN "Description"
+	1    5900 7050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0473093751 J3
+U 1 1 4FE0CCAF
+P 8950 4650
+F 0 "J3" H 8250 5450 50  0000 C CNN
+F 1 "0473093751" H 8950 5350 50  0000 C CNN
+F 4 "MICROSD SOCKET" H 8950 3950 50  0000 C CNN "Description"
+	1    8950 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L TXB0106PWR U2
+U 1 1 4FE0ED4D
+P 8900 1450
+F 0 "U2" H 8450 2049 50  0000 C CNN
+F 1 "TXB0106PWR" H 8900 1950 50  0000 C CNN
+F 4 "VOLTAGE TRANSLATOR" H 8900 950 50  0000 C CNN "Description"
+	1    8900 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 68683-307LF J1
+U 1 1 4FE0F25F
+P 5350 1300
+F 0 "J1" H 4900 1850 50  0000 C CNN
+F 1 "68683-307LF" H 5350 1750 50  0000 C CNN
+F 4 "HEADER" H 5350 850 50  0000 C CNN "Description"
+	1    5350 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 68683-303LF J2
+U 1 1 4FE0F3A9
+P 5350 2500
+F 0 "J2" H 4900 2849 50  0000 C CNN
+F 1 "68683-303LF" H 5350 2750 50  0000 C CNN
+F 4 "HEADER" H 5350 2250 50  0000 C CNN "Description"
+	1    5350 2500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

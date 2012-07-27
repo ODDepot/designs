@@ -1,0 +1,277 @@
+PCBNEW-LibModule-V1  Tue 27 Mar 2012 10:04:35 PM CDT
+# encoding utf-8
+$INDEX
+RN-41
+$EndINDEX
+$MODULE RN-41
+Po 0 0 0 15 4F727ED0 00000000 ~~
+Li RN-41
+Cd Bluetooth Transceiver Module
+Sc 00000000
+AR /4F6A84A6
+Op 0 0 0
+T0 2677 2402 600 600 0 100 N V 21 N "Ref**"
+T1 2717 3386 600 600 0 100 N V 21 N "RN-41"
+DS -350 -1000 5550 -1000 100 21
+DS -350 -3900 5550 -3900 100 21
+DS 5550 -3900 5550 6650 100 21
+DS 5550 6650 -350 6650 100 21
+DS -350 6650 -350 -3900 100 21
+$PAD
+Sh "1" R 512 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "2" R 512 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 472
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "3" R 512 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 945
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "4" R 512 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 1417
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "5" R 512 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 1890
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "6" R 512 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 2362
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "7" R 512 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 2835
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "8" R 512 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 3307
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "9" R 512 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 3780
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "10" R 512 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 4252
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "11" R 512 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 4724
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "12" R 512 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 5197
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "13" R 512 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5197 5197
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "14" R 512 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5197 4724
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "15" R 512 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5197 4252
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "16" R 512 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5197 3780
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "17" R 512 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5197 3307
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "18" R 512 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5197 2835
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "19" R 512 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5197 2362
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "20" R 512 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5197 1890
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "21" R 512 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5197 1417
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "22" R 512 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5197 945
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "23" R 512 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5197 472
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "24" R 512 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5197 0
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "30" R 315 512 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4252 6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "28" R 315 512 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3858 6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "31" R 315 512 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3307 6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "32" R 315 512 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2835 6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "33" R 315 512 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2362 6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "34" R 315 512 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1890 6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "29" R 315 512 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1378 6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "35" R 315 512 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 984 6299
+.LocalClearance 39
+$EndPAD
+$EndMODULE  RN-41
+$EndLIBRARY

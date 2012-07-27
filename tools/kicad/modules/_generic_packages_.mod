@@ -1,0 +1,379 @@
+PCBNEW-LibModule-V1  Wed 06 Jun 2012 11:14:33 AM CDT
+# encoding utf-8
+Units deci-mils
+$INDEX
+LED-SM1206
+TSSOP16-2
+TSSOP20
+$EndINDEX
+$MODULE LED-SM1206
+Po 0 0 0 15 4FAC0C89 00000000 ~~
+Li LED-SM1206
+Sc 0
+AR LED-SM1206
+Op 0 0 0
+At SMD
+T0 0 0 300 300 0 50 N V 21 N "Ref**"
+T1 0 0 300 300 0 50 N I 21 N "Val**"
+DS -160 -650 -160 -250 100 21
+DS -160 -250 40 -450 100 21
+DS 40 -450 -160 -650 100 21
+DS 160 -650 160 -250 100 21
+DS -1000 -450 -1000 450 50 21
+DS -1000 450 -350 450 50 21
+DS 350 -450 1000 -450 50 21
+DS 1000 -450 1000 450 50 21
+DS 1000 450 350 450 50 21
+DS -350 -450 -1000 -450 50 21
+$PAD
+Sh "1" R 600 800 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -650 0
+$EndPAD
+$PAD
+Sh "2" R 600 800 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 650 0
+$EndPAD
+$SHAPE3D
+Na "smd/chip_cms.wrl"
+Sc 0.17 0.16 0.16
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE LED-SM1206
+$MODULE TSSOP16-2
+Po 0 0 0 15 4FCF7273 00000000 ~~
+Li TSSOP16-2
+Sc 0
+AR SSOP16
+Op 0 0 0
+At SMD
+T0 0 0 500 500 0 100 N V 21 N "Ref**"
+T1 0 1900 500 500 0 100 N I 21 N "Val**"
+DC -889 500 -990 500 100 21
+DS 1090 700 -1090 700 100 21
+DS -1090 -700 1090 -700 100 21
+DS -1090 700 -1090 -700 100 21
+DS 1090 -700 1090 700 100 21
+$PAD
+Sh "1" R 157 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -894 1102
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "2" R 157 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -639 1102
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "3" R 157 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -384 1102
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "4" R 157 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -127 1102
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "5" R 157 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 127 1102
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "6" R 157 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 384 1102
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "7" R 157 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 639 1102
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "8" R 157 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 895 1102
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "9" R 157 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 895 -1102
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "10" R 157 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 639 -1102
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "11" R 157 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 384 -1102
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "12" R 157 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 127 -1102
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "13" R 157 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -127 -1102
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "14" R 157 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -384 -1102
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "15" R 157 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -639 -1102
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "16" R 157 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -895 -1102
+.LocalClearance 39
+$EndPAD
+$SHAPE3D
+Na "smd\\smd_dil\\tssop-16.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE TSSOP16-2
+$MODULE TSSOP20
+Po 0 0 0 15 4FAB0E54 00000000 ~~
+Li TSSOP20
+Sc 0
+AR SSOP16
+Op 0 0 0
+At SMD
+T0 0 0 500 500 0 100 N V 21 N "Ref**"
+T1 0 1900 500 500 0 100 N I 21 N "Val**"
+DS -1350 -700 1350 -700 100 21
+DS 1350 -700 1350 700 100 21
+DS 1350 700 -1350 700 100 21
+DS -1350 700 -1350 -700 100 21
+DC -1150 500 -1249 500 100 21
+$PAD
+Sh "1" R 157 551 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1152 1102
+.LocalClearance 40
+$EndPAD
+$PAD
+Sh "2" R 157 551 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -896 1102
+.LocalClearance 40
+$EndPAD
+$PAD
+Sh "3" R 157 551 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -640 1102
+.LocalClearance 40
+$EndPAD
+$PAD
+Sh "4" R 157 551 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -384 1102
+.LocalClearance 40
+$EndPAD
+$PAD
+Sh "5" R 157 551 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -128 1102
+.LocalClearance 40
+$EndPAD
+$PAD
+Sh "6" R 157 551 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 128 1102
+.LocalClearance 40
+$EndPAD
+$PAD
+Sh "7" R 157 551 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 384 1102
+.LocalClearance 40
+$EndPAD
+$PAD
+Sh "8" R 157 551 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 640 1102
+.LocalClearance 40
+$EndPAD
+$PAD
+Sh "9" R 157 551 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 896 1102
+.LocalClearance 40
+$EndPAD
+$PAD
+Sh "10" R 157 551 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1152 1102
+.LocalClearance 40
+$EndPAD
+$PAD
+Sh "11" R 157 551 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1152 -1102
+.LocalClearance 40
+$EndPAD
+$PAD
+Sh "12" R 157 551 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 896 -1102
+.LocalClearance 40
+$EndPAD
+$PAD
+Sh "13" R 157 551 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 640 -1102
+.LocalClearance 40
+$EndPAD
+$PAD
+Sh "14" R 157 551 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 384 -1102
+.LocalClearance 40
+$EndPAD
+$PAD
+Sh "15" R 157 551 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 128 -1102
+.LocalClearance 40
+$EndPAD
+$PAD
+Sh "16" R 157 551 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -128 -1102
+.LocalClearance 40
+$EndPAD
+$PAD
+Sh "17" R 157 551 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -384 -1102
+.LocalClearance 40
+$EndPAD
+$PAD
+Sh "18" R 157 551 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -640 -1102
+.LocalClearance 40
+$EndPAD
+$PAD
+Sh "19" R 157 551 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -896 -1102
+.LocalClearance 40
+$EndPAD
+$PAD
+Sh "20" R 157 551 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1152 -1102
+.LocalClearance 40
+$EndPAD
+$SHAPE3D
+Na "smd\\smd_dil\\tssop-16.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE TSSOP20
+$EndLIBRARY
